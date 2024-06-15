@@ -1,0 +1,141 @@
+.app-container {
+  display: flex;
+  font-family: 'Roboto';
+  height: 100vh;
+}
+
+.heading {
+  color: #f3aa4e;
+  text-align: center;
+  font-size: 30px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a171d;
+  width: 350px;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 40px;
+  margin-top: 10px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.select {
+  height: 40px;
+  margin-top: 10px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  border: none;
+  align-items: center;
+}
+
+.add-btn {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 30px;
+}
+
+.tasks-container {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+}
+
+.list {
+  list-style-type: none;
+}
+.tag-button {
+  background-color: #131213;
+  color: #ffffff;
+  margin-right: 20px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: 1px solid #f3aa4e;
+  cursor: pointer;
+  outline: none;
+}
+
+.tasks-lists {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.task-list {
+  display: flex;
+  color: #ffffff;
+  background-color: #1a171d;
+  margin-bottom: 5px;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: space-between;
+}
+
+.active-tag {
+  background-color: #f3aa4e;
+}
+
+.no-tasks {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.tags-lists {
+  padding: 0px;
+  display: flex;
+}
+
+.heading1 {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.tag {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+}
+
+.task {
+  color: #ffffff;
+}
